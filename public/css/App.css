@@ -1,0 +1,80 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  text-align: center;
+}
+
+header {
+  height: 7vh;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  background-color: #333333;
+}
+
+.form-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 20vh;
+  border-radius: 10px;
+  background-color: #4d4d4d;
+  position: fixed;
+  bottom: 5vh;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.input-add {
+  height: 5vh;
+  width: 40vw;
+}
+
+.input-add::placeholder {
+  text-align: center;
+}
+
+.form-add .btn {
+  margin: 10px;
+  height: 4.5vh;
+  width: 8vw;
+}
+
+.card {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  width: 90vw;
+  max-height: 50vh;
+  height: 50vh;
+  transform: translate(-50%);
+  overflow: auto;
+}
+
+.card-contain {
+  width: 20vw;
+  overflow-x: auto;
+}
+
+.fa-trash {
+  color: red;
+  cursor: pointer;
+}
+
+.fa-check {
+  color: #42a842;
+  cursor: pointer;
+}
+
+.info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3vw;
+}
+/*# sourceMappingURL=App.css.map */
